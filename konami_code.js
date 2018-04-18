@@ -7,11 +7,12 @@ function init() {
 }
 
 function konami(e) {
+  if ( series == code) { alert("Feature Unlocked!!"); return}
   let key = parseInt(e.detail || e.which);
   console.log(series);
   if( code.includes(key)) { series.push(key)} else { series = []}
   //if ( series != code.slice(0, series.length)) {series = []}
-  if ( series == code) { alert("Feature Unlocked!!")}
+  
 }
 
 init();
