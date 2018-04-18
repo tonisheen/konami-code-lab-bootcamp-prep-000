@@ -8,7 +8,7 @@ function init() {
 
 function konami(e) {
   let key = parseInt(e.detail || e.which);
-  console.log(key);
+  console.log(series);
   if( key in code) { series.push(key)}
   if ( series != code.slice(0, series.length)) {series = []}
   if ( series == code) { alert("Feature Unlocked!!")}
