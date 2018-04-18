@@ -8,5 +8,6 @@ function init() {
 
 function konami(e) {
   if( e.which in code) { series.push(e.which)}
-  if ( series != code.slice())
+  if ( series != code.slice(0, series.length)) {series = []}
+  if ( series == code) { alert("Feature Unlocked!!")}
 }
