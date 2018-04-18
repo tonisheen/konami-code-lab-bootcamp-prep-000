@@ -8,5 +8,5 @@ function init() {
 
 function konami(e) {
   if( e.which in code) { series.push(e.which)}
-  if ()
+  if ( series != code.slice())
 }
