@@ -11,3 +11,5 @@ function konami(e) {
   if ( series != code.slice(0, series.length)) {series = []}
   if ( series == code) { alert("Feature Unlocked!!")}
 }
+
+init();
