@@ -8,7 +8,7 @@ function init() {
 
 function konami(e) {
   const key = parseInt(e.detail || e.which);
-  if (key === code[index]) {index += 1; console.log(key)} else { index = 0;}
+  if (key === code[index]) {index += 1;} else { index = 0;}
   if (index === code.length) {
     alert("Feature Unlocked!!!"); index =0;
   } 
