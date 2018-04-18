@@ -3,7 +3,7 @@ let series = [];
 
 function init() {
   // Write your JavaScript code inside the init() function
-  document.body.addventListener('keydown', konami)
+  document.body.addEventListener('keydown', konami)
 }
 
 function konami(e) {
