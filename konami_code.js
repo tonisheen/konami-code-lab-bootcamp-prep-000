@@ -1,4 +1,5 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+let series = [];
 
 function init() {
   // Write your JavaScript code inside the init() function
@@ -6,9 +7,6 @@ function init() {
 }
 
 function konami(e) {
-  let series = [];
-  if (e.which === code[0]) {
-    series.push
-  }
-  series
+  if( e.which in code) { series.push(e.which)}
+  if ()
 }
