@@ -7,7 +7,7 @@ function init() {
 }
 
 function konami(e) {
-  let key = parseInt(e.which);
+  let key = parseInt(e.detail || e.which);
   console.log(key);
   if( key in code) { series.push(key)}
   if ( series != code.slice(0, series.length)) {series = []}
